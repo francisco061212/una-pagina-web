@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*background: green;*/
+}
+body{
+	font-family:sans-serif,arial;
+	font-size:16px ;
+	background: #93794E;
+}
+.contenedor{
+	width: 1000px;
+	margin: 20px auto;
+}
+
+header{ 
+background:#F4B143; 
+}
+header nav{
+	width: 100%;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+header nav ul li{
+	float: left;
+	list-style: none;
+}
+
+header nav ul li a{
+	text-decoration: none;/*eliminar subrrayado*/
+	display: inline-block;/*muestra como bloques*/
+	padding: 15px 20px;
+	color: olive ;
+}
+
+header nav ul li a:hover{
+	background: #FED38B;
+	color:  #BA780B;
+}
+
+.main{
+	width: 580px;
+	background:#865B14;
+	float: left;
+}
+.main .imagen{
+	width: 100%;
+
+}
+.main .imagen img{
+	width: 100%;
+}
+.main .post{
+	padding: 40px;
+
+}
+.margin .post h2{
+	color: oldlace;
+	margin-bottom: 20px;
+}
+.margin .post p{
+	line-height: 26px;
+	margin-bottom: 15px;
+	color: powderblues;
+}
+aside{
+	width: 350px;
+	padding: 20px;
+	background: #6A5025;
+	color: #CD680F;
+	overflow: hidden;
+
+}
+aside .widget{
+	margin-bottom: 20px;
+}
+aside .widget .titulo{
+	color: #362406;
+	border: 1px solid #BA780B;
+	margin-bottom: 15px;
+}
+aside .widget ul{
+	list-style: none;
+}
+aside .widget ul li{
+	border-bottom: 1px solid #93836A;
+	padding: 5px 0px;
+}
+aside .widget ul li a{
+	text-decoration: none;
+		color: #DB9B39;
+		display: inline-block;
+}
+aside .widget ul li a:hover{
+	color: #BD8E40;
+	background:#FED38B ;
+}
+aside .widget p{
+	line-height: 27px;
+	text-align: justify;
+}
+footer{
+	width: 500px;
+	background: #50360C;
+	text-align: center;
+	color:#BD8E40;
+	padding:40px;
+	overflow: center;
+}
+.contenedor header h1{
+	color: #E5E1DA;
+	background: #50360C;
+	text-align: center;
+}
